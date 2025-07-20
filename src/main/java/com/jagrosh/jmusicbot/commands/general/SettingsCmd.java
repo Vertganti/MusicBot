@@ -49,7 +49,7 @@ public class SettingsCmd extends Command
     {
         Settings s = event.getClient().getSettingsFor(event.getGuild());
         MessageCreateBuilder builder = new MessageCreateBuilder()
-                .setContent(EMOJI + " **" + "\n" +
+                .setContent(EMOJI + " **" +
                 FormatUtil.filter(event.getSelfUser().getName()) +
                 "** settings:");
         TextChannel tchan = s.getTextChannel(event.getGuild());
