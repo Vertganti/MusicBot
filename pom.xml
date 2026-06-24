@@ -66,14 +66,18 @@
         <dependency>
             <groupId>club.minnced</groupId>
             <artifactId>jdave-api</artifactId>
-            <version>0.1.7</version>
+            <version>0.1.8</version>
         </dependency>
         <dependency>
             <groupId>club.minnced</groupId>
             <artifactId>jdave-native-win-x86-64</artifactId>
-            <version>0.1.7</version>
+            <version>0.1.8</version>
         </dependency>
-
+		<dependency>
+		    <groupId>club.minnced</groupId>
+		    <artifactId>jdave-native-linux-x86-64</artifactId>
+		    <version>0.1.8</version>
+		</dependency>
         <!-- Music Dependencies -->
         <dependency>
             <groupId>dev.arbjerg</groupId>
