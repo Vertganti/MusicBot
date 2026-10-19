@@ -35,6 +35,11 @@
             <name>Lavalink Repository</name>
             <url>https://maven.lavalink.dev/releases</url>
         </repository>
+		<repository>
+	        <id>lavalink-snapshots</id>
+	        <name>LavaLink Snapshots Repository</name>
+	        <url>https://maven.lavalink.dev/snapshots</url>
+	    </repository>
     </repositories>
 
     <dependencies>
@@ -89,6 +94,11 @@
             <artifactId>common</artifactId>
             <version>1.18.2</version>
         </dependency>
+		<dependency>
+		    <groupId>dev.lavalink.youtube</groupId>
+		    <artifactId>youtube-plugin</artifactId>
+		    <version>2be8e542d3f6f178e048dca565892684c2e40177</version>
+		</dependency>
 	<dependency>
 	    <groupId>com.github.jagrosh</groupId>
 	    <artifactId>JLyrics</artifactId>
